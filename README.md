@@ -1,13 +1,30 @@
-# graphql-nodejs-server-json
-Addressbook, graphql node.js express.js CRUD Application  server-json
- 
-npm install
+# Customerbase GraphQL Server
 
-Run JSON-Server (Port 3000)
-npm run json:server
+Node.js/Express CRUD backend using GraphQL and JSON-Server
 
-Run Server (Port 4000)
-npm run dev:server
+### Version
+1.0.0
+
+## Usage
+
+-Install Dependencies
+
+```bash
+$ npm install
+```
+
+-Run JSON-Server (Port 3000)
+
+```bash
+$ npm run json:server
+```
+
+-Run Server (Port 4000)
+
+```bash
+$ npm run dev:server
+```
 
 -Visit Graphiql IDE
-Open http://localhost:4000/board
+
+Go to http://localhost:4000/graphql
